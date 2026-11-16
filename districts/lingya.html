@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>苓雅區咖啡廳｜港都咖啡散策</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <span class="site-badge">LINGYA DISTRICT</span>
+      <h1 class="site-title">苓雅區咖啡地圖</h1>
+      <p class="site-subtitle">四維林蔭大道與靜巷住宅區，從早晨九點開啟一杯職人手沖的閱讀時光。</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="breadcrumb" aria-label="麵包屑導覽">
+      <a href="../index.html">首頁</a> &gt; <span>苓雅區</span>
+    </nav>
+
+    <div class="filter-bar" role="group" aria-label="特色標籤篩選">
+      <button class="filter-btn active" data-filter="all">全部</button>
+      <button class="filter-btn" data-filter="適合唸書">適合唸書</button>
+      <button class="filter-btn" data-filter="不限時">不限時</button>
+      <button class="filter-btn" data-filter="有插座">有插座</button>
+      <button class="filter-btn" data-filter="老宅改造">老宅改造</button>
+      <button class="filter-btn" data-filter="深夜咖啡">深夜咖啡</button>
+    </div>
+
+    <section class="cafe-grid">
+      <!-- 卡片 1：覓心手沖咖啡 -->
+      <article class="cafe-card" data-tags="適合唸書,不限時">
+        <div>
+          <div class="cafe-header">
+            <h3 class="cafe-name">覓心手沖咖啡</h3>
+            <div class="cafe-tags">
+              <span class="tag study-tag">適合唸書</span>
+              <span class="tag">不限時</span>
+            </div>
+          </div>
+          <ul class="cafe-info">
+            <li><strong>地址：</strong>高雄市苓雅區四維三路8巷49號</li>
+            <li><strong>營業：</strong>09:00 開始營業</li>
+            <li><strong>特色餐點：</strong>精品手沖單品咖啡、手作輕食</li>
+            <li><strong>適合唸書：</strong>推薦（早晨九點營業、巷弄環境清幽適合晨間閱讀）</li>
+          </ul>
+          <p class="cafe-note">
+            隱身於苓雅區四維三路靜巷內的手沖專門店，早晨九點即開門迎客，清幽氛圍非常適合喜歡早起看書、整理筆記的學生。
+          </p>
+        </div>
+        <a href="https://share.google/qqJbCjkwXvNFiRGJg" target="_blank" rel="noopener" class="btn-map">
+          在 Google Maps 查看 →
+        </a>
+      </article>
+    </section>
+
+    <div id="empty-state" class="empty-state">
+      目前此分類下尚無收錄店家，請切換其他特色標籤瀏覽。
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>港都咖啡散策 ｜ 基於 AGENTS.md 與 LLM Wiki 工作流建置</p>
+    </div>
+  </footer>
+
+  <script src="../js/filter.js"></script>
+</body>
+</html>
